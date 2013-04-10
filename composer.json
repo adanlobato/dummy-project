@@ -1,0 +1,13 @@
+{
+    "name": "adanlobato/dummy-project",
+    "description": "Dummy project",
+    "repositories":[
+        {
+            "type":"git",
+            "url":"git://github.com/adanlobato/dummy-package.git"
+        }
+    ],
+    "require":{
+        "adanlobato/dummy-package":"0.1.*@dev"
+    }
+}
